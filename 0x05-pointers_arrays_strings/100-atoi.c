@@ -4,7 +4,7 @@
  * _atoi - converts a string to an integer
  * @s: th pointer to convert
  *
- * Return: a interger
+ * Return: a interger.
  */
 
 int _atoi(char *s)
@@ -30,7 +30,7 @@ int _atoi(char *s)
 	{
 	break;
 	}
-	c++
+	c++;
 	}
 	ni *= min;
 	return (ni);
