@@ -14,13 +14,14 @@ char *leet(char *str)
 
 	while (str[indx1])
 	{
-		for (indx2 = 0; indx2 <= 7; indx++)
+		for (indx2 = 0; indx2 <= 7; indx2++)
 		{
 			if (str[indx1] == leet[indx2] ||
-					str[indx] - 32 == leet[indx2])
+					str[indx1] - 32 == leet[indx2])
 				str[indx1] = indx2 + '0';
 		}
-		indx++;
+
+		indx1++;
 	}
 
 	return (str);
