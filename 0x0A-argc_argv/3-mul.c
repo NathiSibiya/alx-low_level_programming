@@ -1,12 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
-* main - prints the multiplication of two args numbers and newline
+* main - prints the multiplication of two args numbers
 * @argc: argument count
 * @argv: argument vector
 *
-* Retun: 0
+* Return: 0
 */
 
 int main(int argc, char *argv[])
